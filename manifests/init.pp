@@ -1,3 +1,21 @@
+# == Class dhttpd
+#
+# this class install and configure dhttpd
+#
+# === Parameters
+#
+# [*ensure*]
+#   True to enable
+#
+# [*path*]
+#   Path to serve whit dhttpd. Mandatory
+#
+# [*port*]
+#   Port to bind service. Default: 8089
+#
+# [*bind*]
+#   Ip address to bind service. Default: 0.0.0.0
+#
 class dhttpd(
   $path,
   $ensure ='present',
