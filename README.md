@@ -1,7 +1,7 @@
 puppet-dhttpd
 =============
 
-manage dhttpd isntall and config
+manage dhttpd install and config
 
 ####Table of Contents
 
